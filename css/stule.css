@@ -1,0 +1,57 @@
+#greycol{
+    color: gray;
+}
+.yellow{
+    color: yellow;
+}
+h3:first-child{
+color: pink;
+}
+div+h3+p{
+    color: green;
+}
+div+div>p{
+    color: red;
+}
+.box{
+    width: 1100px;
+    border: 5px solid black;
+    display: flex;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid black;
+    transition: transform 1000ms;
+}
+.item:nth-child(even){
+    background-color: gray;
+    
+}
+.item:nth-child(odd){
+    background-color: aqua;
+}
+.item:nth-child(4n){
+    background-color: gold;
+}
+.item:nth-child(n+9){
+    background-color:tomato;  
+}
+.item:nth-child(-n+3){
+    background-color: deeppink;
+}
+.item:nth-child(3){
+    background-color: coral;
+}
+.item:first-child{
+    background-color: antiquewhite;
+}
+.item:last-child{
+    background-color: aquamarine;
+}
+.item:hover{
+    background-color: mediumvioletred;
+    transform: scale(5.2) rotate(360deg);
+}
